@@ -1,0 +1,136 @@
+/* fundo azul elegante */
+.background {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #003cff, #006aff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+}
+
+/* CARD CENTRAL */
+.card {
+  width: 100%;
+  max-width: 1100px;
+  background: #ffffff;
+  display: flex;
+  border-radius: 14px;
+  padding: 35px;
+  gap: 40px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.25);
+}
+
+/* LADO ESQUERDO */
+.left-area {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 14px;
+}
+
+/* LADO DIREITO */
+.right-area {
+  width: 60%;
+}
+
+.title {
+  font-size: 32px;
+  color: #1b2a49;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+/* FORMULÁRIO */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+.btn-emitir {
+  background: #0057ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.btn-emitir:hover {
+  background: #003fcc;
+}
+
+/* ÁREA DE BOTÕES */
+.buttons-area {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+/* BTN PDF */
+.btn-pdf {
+  background: #222;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* BOTÃO WHATSAPP */
+.btn-whats {
+  background: #25d366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.2s;
+}
+
+.btn-whats img {
+  width: 22px;
+  height: 22px;
+}
+
+.btn-whats:hover {
+  background: #1ebe5d;
+}
+
+
+
+
+
+
+
+
+
