@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://app-notas-fiscais-backend-a31afc175408.herokuapp.com/api/:path*"
+    }
+  ]
+}
+
+
+
