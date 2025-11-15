@@ -14,7 +14,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:3000/api/emitir-nfse", {
+      const res = await axios.post("https://app-notas-fiscais-backend-a31afc175408.herokuapp.com/api/emitir-nfse", {
         cnpj_prestador: prestador,
         cnpj_tomador: tomador,
         descricao,
@@ -24,7 +24,7 @@ function App() {
       alert("Nota emitida com sucesso!");
 
       // ✅ SALVA O LINK DO PDF
-      setPdfLink("http://localhost:3000" + res.data.dados.caminho_pdf);
+      setPdfLink("https://app-notas-fiscais-backend-a31afc175408.herokuapp.com" + res.data.dados.caminho_pdf);
 
     } catch (error) {
       console.error("Erro ao emitir:", error);
